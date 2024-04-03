@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+      .dark {
+        background-color: rgb(0, 0, 0);
+      }
+
+      .dark * {
+        color: rgb(241, 237, 237) !important;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <div class="head__logo">
+            <a href="#" class="nav__logo"
+              ><img src="./img/Group 190.svg" alt=""
+            /></a>
+            <a href="#" class="nav__logo"
+              ><img src="./img/Product.svg" alt=""
+            /></a>
+          </div>
+          <div class="nav__linkbtn">
+            <ul class="nav__list">
+              <li class="nav__list_item">
+                <a href="" class="nav__listlenk"> Product</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="" class="nav__listlenk">Customers </a>
+              </li>
+              <li class="nav__list_item">
+                <a href="" class="nav__listlenk">Pricing</a>
+              </li>
+              <li class="nav__list_item">
+                <a href="" class="nav__listlenk">Resources</a>
+              </li>
+            </ul>
+
+            <div class="header__btn">
+
+              <div class="link__btu">
+                <a class="navbar__btn" href="#">Sign In</a>
+              <a class="navbar__btn sing" href="#">Sign In</a>
+              </div>
+              <button class="light__dark" id="light-dark">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="32" height="32" rx="16" fill="#F3F3F3" />
+                  <path
+                    d="M16 26C21.514 26 26 21.514 26 16C26 10.486 21.514 6 16 6C10.486 6 6 10.486 6 16C6 21.514 10.486 26 16 26ZM16 8C20.411 8 24 11.589 24 16C24 20.411 20.411 24 16 24C11.589 24 8 20.411 8 16C8 11.589 11.589 8 16 8Z"
+                    fill="#02897A"
+                  />
+                  <path
+                    d="M23 16C23 12.134 19.865 9 16 9V23C19.865 23 23 19.866 23 16Z"
+                    fill="#02897A"
+                  />
+                </svg>
+              </button>
+              <img src="./img/burger-menu.png" class="burger-img" alt="" />
+            </div>
+          </div>
+              <div class="burgerMenu">
+              <ul class="burgerMenu-list">
+                <li class="burgerMenu-item">
+                  <a href="" class="burgerMenuitemlink">About</a>
+                </li>
+                <li class="burgerMenu-item">
+                  <a href="" class="burgerMenu-item-link">Features</a>
+                </li>
+                <li class="burgerMenu-item">
+                  <a href="" class="burgerMenu-item-link">Pricing</a>
+                </li>
+                <li class="burgerMenu-item">
+                  <a href="" class="burgerMenu-item-link">Testimonial</a>
+                </li>
+                <li class="burgerMenu-item">
+                  <a href="" class="burgerMenu-item-link">Help</a>
+                </li>
+              </ul>
+              <div class="burgerMenu-btnBox">
+                <button class="burgerMenu-btnBox-btn1">Sign In</button>
+                <button class="burgerMenu-btnBox-btn">Sign Up</button>
+              </div>
+            </div>
+        </nav>
+         
+        </nav>
+      </div>
+
+      <script>
+        let modeBtn = document.getElementById("light-dark");
+
+        modeBtn.addEventListener("click", function () {
+          document.body.classList.toggle("dark");
+        });
+      </script>
+      <script src="./js/main.js"></script>
+    </header>
+    <main>
+     <section>
+      <div class="container">
+        <div class="hero__grup">
+          <div class="hero__tex">
+            <h3><strong>Work at the speed
+              of thought</strong> </h3>
+          
+          <p class="tex">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.  </p>
+          <div class="btn_grup">
+            <a class="btn_get" href="">Get started</a>
+            <a href=""><img src="./img/button.svg" alt=""></a>
+          </div>
+          </div>
+          <div class="hero__img">
+            <img class="img-hero" src="./img/wghew;hner.png" alt="rasim">
+          </div>
+        </div>
+      </div>
+     </section>
+     <section class="main__section__2">
+      <div class="container">
+         <h2 class="product">Product  was Built Specifically 
+            for You</h2>
+        <div class="icons__grup">
+          
+          <div class="icon__1">
+            <img class="img__car" src="./img/icon bd.svg" alt="">
+            <img class="img__icon" src="./img/.svg" alt="">
+            <h4 class="img__tex" >First click tests</h4>
+            <p class="img__texp"> While most people enjoy casino gambling,</p>
+          </div>
+
+          <div class="icon__1">
+            <img class="img__car" src="./img/2/yurak(2).svg" alt="">
+            <h4 class="img__tex" >Design surveys</h4>
+            <p class="img__texp"> Sports betting, lottery and bingo playing for the fun,</p>
+          </div>
+
+
+          <div class="icon__1">
+            <img class="img__car" src="./img/3/yurak.svg" alt="">
+            <h4 class="img__tex" >Preference tests</h4>
+            <p class="img__texp">The Myspace page defines the individual.</p>
+          </div>
+
+
+          <div class="icon__1">
+            <img class="img__car" src="./img/4/icon.svg" alt="">
+            <h4 class="img__tex" >Five second tests</h4>
+            <p class="img__texp">Personal choices and the overall personality of the person. </p>
+          </div>
+        </div>
+        <button class="sing_up">SIGN UP NOW</button>
+         <div>
+        <img src="./img/Bg.png" alt="">
+      </div>
+        
+
+
+       
+      </div>
+      
+     </section>
+     <section class="main__section__2">
+      <div class="container bigo">
+        <div class="card__left">
+          <p class="for__1">Effortless Validation for</p>
+          <h4 class="section_1">Management</h4>
+          <p class="for">The Myspace page defines the individual, his or her chacteristics, traits, personal choices and the overall personality of the person. </p>
+          <h5 class="seshil">Accessory makers</h5>
+          <p class="for">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+          <h6 class="seshil">Alterationists</h6>
+          <p class="for">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+        </div>
+        <div class="card__right">
+          <img src="./img/Product/documents/amico.png" alt="">
+        </div>
+      </div>
+     </section>
+     <section class="main__section__2">
+      <div class="container car__2">
+        <div class="card_left">
+          <img class="layt"  src="./img/Product (2)/search-engines/amico.png" alt="">
+        </div>
+        <div class="card_reght">
+          <p class="card_reght_p">Easier decision making for</p>
+          <h4 class="custim_h">Customer Support</h4>
+          <p class="the">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+          <div class="img__tex"><img src="./img/1/Group 13.svg" alt="">
+          <p class="never">Never worry about overpaying for your energy again. </p>
+          </div>
+
+
+
+          <div class="img__tex"><img src="./img/2/ptichka.svg" alt="">
+            <p   class="never">We will only switch you to energy companies that we trust and will treat you right </p>
+            </div>
+
+
+            <div class="img__tex"><img src="./img/3/ptichka3.svg" alt="">
+              <p  class="never">We track the markets daily and know where the savings are. </p>
+              </div>
+
+
+        </div>
+      </div>
+     </section>
+     <section class="main__section__3">
+      <div class="container bigo">
+        <div class="card__left">
+          <p class="for__1">Optimisation for</p>
+          <h4 class="section_1">Collaborative</h4>
+          <p class="for">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+          <h5 class="seshil">Accessory makers</h5>
+          <p class="for">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+          <h6 class="seshil">Alterationists</h6>
+          <p class="for">If you are looking for a new way to promote your business that won’t cost you more money,  </p>
+        </div>
+        <div class="card__right">
+          <img src="./img/amiccccc.png" alt="">
+        </div>
+      </div>
+        
+      </div>
+     </section>
+     <section class="main__section__4">
+      <div class="container">
+        <div class="tex__mein">
+          <h4>Quick & Easy Process</h4>
+          <p>Do you require some help for your project: Conception workshop,
+            prototyping, marketing strategy, landing page, Ux/UI?</p>
+        </div>
+        <div class="card__top">
+          <div class="card__boc">
+            <img src="./img/birinchi.svg" alt="">
+            <p class="econ__tex">I can take care of your pitch</p>
+           </div>
+         
+  
+  
+           <div class="card__boc">
+             <p class="econ__tex">I can take care of your pitch</p>
+            <img src="./img/Avator345678.png" alt="">
+           </div>
+        </div>
+        <div class="card__buton">
+         
+          <div class="card__boc">
+              <p class="econ__tex">I can take care of your pitch</p>
+            <img src="./img/uchinchi.svg" alt="">
+            </div>
+
+
+
+
+
+          <div class="card__boc">
+            <img src="./img/turtinchi.svg" alt="">
+            <p class="econ__tex">I can take care of your pitch</p>
+           </div>
+
+            
+
+        </div>
+
+
+         
+        
+
+      </div>
+     </section>
+     <section class="main__section__5">
+      <div class="container">
+        <div class="foter__top">
+          <h4>Contents Strategies</h4>
+          <p>We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+          <div class="item corusel__1">
+            <img src="./img/corusil/image bg 3.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4>Increasing Prosperity <br> With Positive Thinking</h4>
+          </div>
+          <div class="item corusel__1">
+            <img src="./img/corusil/Bitmap 2.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="card_ovul">Motivation Is The First <br>  Step To Success</h4></div>
+          <div class="item corusel__1">
+            <img src="./img/corusil/Bitmap (1).png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="steps">Success Steps For Your <br> Personal Or Business</h4></div>
+           <!-- <div class="item corusel_1"><img src="./img/corusil/image bg 3.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4>Increasing Prosperity <br> With Positive Thinking</h4></div>
+          <div class="item corusel__1" ><img src="./img/corusil/Bitmap 2.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="card_ovul">Motivation Is The First <br>  Step To Success</h4></div>
+          <div class="item corusel__1"> <img src="./img/corusil/Bitmap (1).png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="steps">Success Steps For Your <br> Personal Or Business</h4></div>
+          <div class="item corusel_1"><img src="./img/corusil/image bg 3.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4>Increasing Prosperity <br> With Positive Thinking</h4></div>
+          <div class="item corusel_1"><img src="./img/corusil/Bitmap 2.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="card_ovul">Motivation Is The First <br>  Step To Success</h4></div>
+          <div class="item corusel_1"><img src="./img/corusil/Bitmap (1).png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="steps">Success Steps For Your <br> Personal Or Business</h4></div>
+          <div class="item corusel_1"><div class="item corusel_1"><img src="./img/corusil/image bg 3.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4>Increasing Prosperity <br> With Positive Thinking</h4></div>
+          <div class="item corusel_1"><img src="./img/corusil/Bitmap 2.png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="card_ovul">Motivation Is The First <br>  Step To Success</h4></div>
+          <div class="item corusel_1"><img src="./img/corusil/Bitmap (1).png" alt="">
+            <p>By <span> Wahid Ari</span> |  03 March 2019</p>
+            <h4 class="steps">Success Steps For Your <br> Personal Or Business</h4></div> -->
+      </div>
+      </div>
+     </section>
+     <section class="main__section__6">
+      <div class="container ">
+        
+        <div class="card_tex">
+          <h4>Price Table</h4>
+          <p>We offer competitive price</p>
+        </div>
+        <div class="card_box">
+         <div class="card_blog1">
+              <div class="blog_tex">
+              <h3>Free</h3>
+                <p>Brief price description</p>
+              </div>
+             
+              <div class="formul">
+                <div><h2>0</h2></div>
+                <div class="sepan">
+                  <span>$</span>
+                  <p>Per / month</p>
+                </div>
+               </div>
+               <div class="text_grup">
+                <p>Only 2 Operators</p>
+                <p>Notifications</p>
+                <p>Landing Pages</p>
+               </div>
+               <div class="oreder">
+                <a href="#">Order Now</a>
+              </div>
+             </div>
+
+
+
+             <div class="card_blog1">
+              <div class="blog_tex">
+              <h3>Standard</h3>
+                <p>Brief price description</p>
+              </div>
+             
+              <div class="formul">
+                <div><h2>5</h2></div>
+                <div class="sepan">
+                  <span>$</span>
+                  <p>Per / month</p>
+                </div>
+               </div>
+               <div class="text_grup">
+                <p>5+ Operators</p>
+                <p>Notifications</p>
+                <p>Landing Pages</p>
+               </div>
+               <div class="oreder">
+                <a href="#">Order Now</a>
+              </div>
+             </div>
+
+
+
+
+
+
+
+
+             <div class="card_blog1">
+              <div class="blog_tex">
+              <h3>Premium</h3>
+                <p>Brief price description</p>
+              </div>
+             
+              <div class="formul">
+                <div><h2>10</h2></div>
+                <div class="sepan">
+                  <span>$</span>
+                  <p>Per / month</p>
+                </div>
+               </div>
+               <div class="text_grup">
+                <p>10+ Operators</p>
+                <p>Notifications</p>
+                <p>Landing Pages</p>
+               </div>
+               <div class="oreder">
+                <a href="#">Order Now</a>
+              </div>
+             </div>
+
+            </div>
+
+
+
+
+
+          </div>
+
+              
+        </div>
+        
+      
+     </section>
+     <section>
+      <div class="container">
+        <div class="text-buton">
+          <h4>What Clients Say</h4>
+          <p>Problems trying to resolve the conflict between 
+            the two major realms of Classical physics: Newtonian mechanics </p>
+        </div>
+        <div class="text_bloc">
+          <div class="text_bloc1">
+           <div class="maximum">
+            <svg width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" fill="#F3CD03"/>
+              <path d="M40.3103 6.58663C40.2526 6.41682 40.1465 6.26761 40.005 6.15742C39.8635 6.04723 39.6929 5.98089 39.5141 5.96658L34.2849 5.55107L32.0221 0.542056C31.9501 0.380725 31.8328 0.243699 31.6846 0.147514C31.5364 0.0513295 31.3635 9.71158e-05 31.1868 1.37932e-07C31.0101 -9.684e-05 30.8372 0.0509458 30.6889 0.146968C30.5405 0.24299 30.4232 0.379887 30.3509 0.541138L28.0881 5.55107L22.859 5.96658C22.6833 5.9805 22.5153 6.04474 22.3752 6.15161C22.235 6.25849 22.1286 6.40348 22.0688 6.56923C22.0089 6.73498 21.998 6.91448 22.0374 7.08625C22.0769 7.25802 22.165 7.41479 22.2912 7.5378L26.1555 11.3049L24.7888 17.2229C24.7473 17.402 24.7606 17.5895 24.827 17.761C24.8934 17.9324 25.0097 18.08 25.161 18.1845C25.3123 18.2891 25.4915 18.3457 25.6754 18.3471C25.8593 18.3485 26.0393 18.2946 26.1922 18.1924L31.1865 14.8628L36.1809 18.1924C36.3371 18.2961 36.5214 18.3495 36.7089 18.3454C36.8963 18.3413 37.0781 18.2799 37.2296 18.1694C37.3812 18.0589 37.4952 17.9047 37.5565 17.7274C37.6178 17.5502 37.6233 17.3584 37.5723 17.1779L35.8947 11.3076L40.0553 7.56348C40.3277 7.31766 40.4277 6.93426 40.3103 6.58663Z" fill="#F3CD03"/>
+              <path d="M62.321 6.58663C62.2633 6.41682 62.1572 6.26761 62.0157 6.15742C61.8743 6.04723 61.7036 5.98089 61.5248 5.96658L56.2957 5.55107L54.0329 0.542056C53.9608 0.380725 53.8436 0.243699 53.6954 0.147514C53.5471 0.0513295 53.3743 9.71158e-05 53.1976 1.37932e-07C53.0209 -9.684e-05 52.8479 0.0509458 52.6996 0.146968C52.5513 0.24299 52.4339 0.379887 52.3617 0.541138L50.0989 5.55107L44.8697 5.96658C44.694 5.9805 44.526 6.04474 44.3859 6.15161C44.2458 6.25849 44.1394 6.40348 44.0795 6.56923C44.0196 6.73498 44.0087 6.91448 44.0482 7.08625C44.0876 7.25802 44.1757 7.41479 44.3019 7.5378L48.1662 11.3049L46.7996 17.2229C46.7581 17.402 46.7714 17.5895 46.8377 17.761C46.9041 17.9324 47.0205 18.08 47.1718 18.1845C47.3231 18.2891 47.5023 18.3457 47.6861 18.3471C47.87 18.3485 48.0501 18.2946 48.2029 18.1924L53.1973 14.8628L58.1916 18.1924C58.3478 18.2961 58.5321 18.3495 58.7196 18.3454C58.9071 18.3413 59.0888 18.2799 59.2404 18.1694C59.3919 18.0589 59.506 17.9047 59.5672 17.7274C59.6285 17.5502 59.634 17.3584 59.5831 17.1779L57.9054 11.3076L62.066 7.56348C62.3384 7.31766 62.4384 6.93426 62.321 6.58663Z" fill="#F3CD03"/>
+              <path d="M84.3371 6.58663C84.2795 6.41682 84.1733 6.26761 84.0319 6.15742C83.8904 6.04723 83.7197 5.98089 83.541 5.96658L78.3118 5.55107L76.049 0.542056C75.9769 0.380725 75.8597 0.243699 75.7115 0.147514C75.5633 0.0513295 75.3904 9.71158e-05 75.2137 1.37932e-07C75.037 -9.684e-05 74.864 0.0509458 74.7157 0.146968C74.5674 0.24299 74.45 0.379887 74.3778 0.541138L72.115 5.55107L66.8858 5.96658C66.7101 5.9805 66.5422 6.04474 66.402 6.15161C66.2619 6.25849 66.1555 6.40348 66.0956 6.56923C66.0357 6.73498 66.0248 6.91448 66.0643 7.08625C66.1037 7.25802 66.1918 7.41479 66.318 7.5378L70.1824 11.3049L68.8157 17.2229C68.7742 17.402 68.7875 17.5895 68.8538 17.761C68.9202 17.9324 69.0366 18.08 69.1879 18.1845C69.3392 18.2891 69.5184 18.3457 69.7023 18.3471C69.8861 18.3485 70.0662 18.2946 70.219 18.1924L75.2134 14.8628L80.2077 18.1924C80.364 18.2961 80.5482 18.3495 80.7357 18.3454C80.9232 18.3413 81.1049 18.2799 81.2565 18.1694C81.408 18.0589 81.5221 17.9047 81.5834 17.7274C81.6446 17.5502 81.6501 17.3584 81.5992 17.1779L79.9215 11.3076L84.0821 7.56348C84.3545 7.31766 84.4545 6.93426 84.3371 6.58663Z" fill="#F3CD03"/>
+              <path d="M92.1977 11.3049L90.831 17.2229C90.7887 17.4021 90.8014 17.5899 90.8674 17.7618C90.9335 17.9336 91.0499 18.0816 91.2013 18.1863C91.3528 18.291 91.5323 18.3476 91.7164 18.3487C91.9006 18.3498 92.0808 18.2953 92.2334 18.1924L97.2278 14.8629L102.222 18.1924C102.378 18.2962 102.563 18.3496 102.75 18.3454C102.938 18.3413 103.119 18.2799 103.271 18.1694C103.422 18.0589 103.536 17.9047 103.598 17.7274C103.659 17.5502 103.665 17.3584 103.614 17.178L101.936 11.3077L106.097 7.56351C106.23 7.44353 106.325 7.28712 106.37 7.11362C106.416 6.94012 106.409 6.75715 106.351 6.58734C106.294 6.41752 106.188 6.26831 106.046 6.15815C105.905 6.04799 105.734 5.98172 105.555 5.96752L100.326 5.5511L98.0634 0.542085C97.9912 0.380794 97.8739 0.243833 97.7257 0.147729C97.5774 0.0516259 97.4045 0.000488281 97.2278 0.000488281C97.0511 0.000488281 96.8782 0.0516259 96.7299 0.147729C96.5816 0.243833 96.4643 0.380794 96.3922 0.542085L94.1294 5.5511L88.9002 5.96661C88.7245 5.98053 88.5566 6.04477 88.4164 6.15164C88.2763 6.25852 88.1699 6.40351 88.11 6.56926C88.0501 6.73501 88.0392 6.91451 88.0787 7.08628C88.1181 7.25805 88.2062 7.41482 88.3324 7.53783L92.1977 11.3049ZM94.8145 7.33696C94.9783 7.32406 95.1355 7.26735 95.2698 7.17278C95.404 7.07821 95.5104 6.94927 95.5777 6.79946L97.2278 3.14795L98.8779 6.79946C98.9452 6.94927 99.0515 7.07821 99.1858 7.17278C99.3201 7.26735 99.4773 7.32406 99.641 7.33696L103.284 7.62588L100.284 10.3262C100.024 10.561 99.9199 10.9224 100.015 11.26L101.165 15.282L97.7378 12.9972C97.5874 12.8963 97.4103 12.8423 97.2292 12.8423C97.048 12.8423 96.871 12.8963 96.7206 12.9972L93.1397 15.3848L94.1028 11.215C94.1381 11.0617 94.1333 10.9018 94.089 10.7508C94.0447 10.5998 93.9622 10.4627 93.8496 10.3528L91.0631 7.63597L94.8145 7.33696Z" fill="#F3CD03"/>
+              </svg>
+              <p>Product helps you see how many 
+                more days you need to work to 
+                reach your financial goal.</p>
+                <div class="icon_tex">
+                  <img src="./img/Ellipse 2.svg" alt="">
+                  <div>
+                    <h4>Wahid Ari</h4>
+                    <p class="wahid">Designer</p>
+                  </div>
+                </div>
+          </div>
+           </div>
+
+           <div class="text_bloc1">
+            <div class="maximum">
+             <svg width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" fill="#F3CD03"/>
+               <path d="M40.3103 6.58663C40.2526 6.41682 40.1465 6.26761 40.005 6.15742C39.8635 6.04723 39.6929 5.98089 39.5141 5.96658L34.2849 5.55107L32.0221 0.542056C31.9501 0.380725 31.8328 0.243699 31.6846 0.147514C31.5364 0.0513295 31.3635 9.71158e-05 31.1868 1.37932e-07C31.0101 -9.684e-05 30.8372 0.0509458 30.6889 0.146968C30.5405 0.24299 30.4232 0.379887 30.3509 0.541138L28.0881 5.55107L22.859 5.96658C22.6833 5.9805 22.5153 6.04474 22.3752 6.15161C22.235 6.25849 22.1286 6.40348 22.0688 6.56923C22.0089 6.73498 21.998 6.91448 22.0374 7.08625C22.0769 7.25802 22.165 7.41479 22.2912 7.5378L26.1555 11.3049L24.7888 17.2229C24.7473 17.402 24.7606 17.5895 24.827 17.761C24.8934 17.9324 25.0097 18.08 25.161 18.1845C25.3123 18.2891 25.4915 18.3457 25.6754 18.3471C25.8593 18.3485 26.0393 18.2946 26.1922 18.1924L31.1865 14.8628L36.1809 18.1924C36.3371 18.2961 36.5214 18.3495 36.7089 18.3454C36.8963 18.3413 37.0781 18.2799 37.2296 18.1694C37.3812 18.0589 37.4952 17.9047 37.5565 17.7274C37.6178 17.5502 37.6233 17.3584 37.5723 17.1779L35.8947 11.3076L40.0553 7.56348C40.3277 7.31766 40.4277 6.93426 40.3103 6.58663Z" fill="#F3CD03"/>
+               <path d="M62.321 6.58663C62.2633 6.41682 62.1572 6.26761 62.0157 6.15742C61.8743 6.04723 61.7036 5.98089 61.5248 5.96658L56.2957 5.55107L54.0329 0.542056C53.9608 0.380725 53.8436 0.243699 53.6954 0.147514C53.5471 0.0513295 53.3743 9.71158e-05 53.1976 1.37932e-07C53.0209 -9.684e-05 52.8479 0.0509458 52.6996 0.146968C52.5513 0.24299 52.4339 0.379887 52.3617 0.541138L50.0989 5.55107L44.8697 5.96658C44.694 5.9805 44.526 6.04474 44.3859 6.15161C44.2458 6.25849 44.1394 6.40348 44.0795 6.56923C44.0196 6.73498 44.0087 6.91448 44.0482 7.08625C44.0876 7.25802 44.1757 7.41479 44.3019 7.5378L48.1662 11.3049L46.7996 17.2229C46.7581 17.402 46.7714 17.5895 46.8377 17.761C46.9041 17.9324 47.0205 18.08 47.1718 18.1845C47.3231 18.2891 47.5023 18.3457 47.6861 18.3471C47.87 18.3485 48.0501 18.2946 48.2029 18.1924L53.1973 14.8628L58.1916 18.1924C58.3478 18.2961 58.5321 18.3495 58.7196 18.3454C58.9071 18.3413 59.0888 18.2799 59.2404 18.1694C59.3919 18.0589 59.506 17.9047 59.5672 17.7274C59.6285 17.5502 59.634 17.3584 59.5831 17.1779L57.9054 11.3076L62.066 7.56348C62.3384 7.31766 62.4384 6.93426 62.321 6.58663Z" fill="#F3CD03"/>
+               <path d="M84.3371 6.58663C84.2795 6.41682 84.1733 6.26761 84.0319 6.15742C83.8904 6.04723 83.7197 5.98089 83.541 5.96658L78.3118 5.55107L76.049 0.542056C75.9769 0.380725 75.8597 0.243699 75.7115 0.147514C75.5633 0.0513295 75.3904 9.71158e-05 75.2137 1.37932e-07C75.037 -9.684e-05 74.864 0.0509458 74.7157 0.146968C74.5674 0.24299 74.45 0.379887 74.3778 0.541138L72.115 5.55107L66.8858 5.96658C66.7101 5.9805 66.5422 6.04474 66.402 6.15161C66.2619 6.25849 66.1555 6.40348 66.0956 6.56923C66.0357 6.73498 66.0248 6.91448 66.0643 7.08625C66.1037 7.25802 66.1918 7.41479 66.318 7.5378L70.1824 11.3049L68.8157 17.2229C68.7742 17.402 68.7875 17.5895 68.8538 17.761C68.9202 17.9324 69.0366 18.08 69.1879 18.1845C69.3392 18.2891 69.5184 18.3457 69.7023 18.3471C69.8861 18.3485 70.0662 18.2946 70.219 18.1924L75.2134 14.8628L80.2077 18.1924C80.364 18.2961 80.5482 18.3495 80.7357 18.3454C80.9232 18.3413 81.1049 18.2799 81.2565 18.1694C81.408 18.0589 81.5221 17.9047 81.5834 17.7274C81.6446 17.5502 81.6501 17.3584 81.5992 17.1779L79.9215 11.3076L84.0821 7.56348C84.3545 7.31766 84.4545 6.93426 84.3371 6.58663Z" fill="#F3CD03"/>
+               <path d="M92.1977 11.3049L90.831 17.2229C90.7887 17.4021 90.8014 17.5899 90.8674 17.7618C90.9335 17.9336 91.0499 18.0816 91.2013 18.1863C91.3528 18.291 91.5323 18.3476 91.7164 18.3487C91.9006 18.3498 92.0808 18.2953 92.2334 18.1924L97.2278 14.8629L102.222 18.1924C102.378 18.2962 102.563 18.3496 102.75 18.3454C102.938 18.3413 103.119 18.2799 103.271 18.1694C103.422 18.0589 103.536 17.9047 103.598 17.7274C103.659 17.5502 103.665 17.3584 103.614 17.178L101.936 11.3077L106.097 7.56351C106.23 7.44353 106.325 7.28712 106.37 7.11362C106.416 6.94012 106.409 6.75715 106.351 6.58734C106.294 6.41752 106.188 6.26831 106.046 6.15815C105.905 6.04799 105.734 5.98172 105.555 5.96752L100.326 5.5511L98.0634 0.542085C97.9912 0.380794 97.8739 0.243833 97.7257 0.147729C97.5774 0.0516259 97.4045 0.000488281 97.2278 0.000488281C97.0511 0.000488281 96.8782 0.0516259 96.7299 0.147729C96.5816 0.243833 96.4643 0.380794 96.3922 0.542085L94.1294 5.5511L88.9002 5.96661C88.7245 5.98053 88.5566 6.04477 88.4164 6.15164C88.2763 6.25852 88.1699 6.40351 88.11 6.56926C88.0501 6.73501 88.0392 6.91451 88.0787 7.08628C88.1181 7.25805 88.2062 7.41482 88.3324 7.53783L92.1977 11.3049ZM94.8145 7.33696C94.9783 7.32406 95.1355 7.26735 95.2698 7.17278C95.404 7.07821 95.5104 6.94927 95.5777 6.79946L97.2278 3.14795L98.8779 6.79946C98.9452 6.94927 99.0515 7.07821 99.1858 7.17278C99.3201 7.26735 99.4773 7.32406 99.641 7.33696L103.284 7.62588L100.284 10.3262C100.024 10.561 99.9199 10.9224 100.015 11.26L101.165 15.282L97.7378 12.9972C97.5874 12.8963 97.4103 12.8423 97.2292 12.8423C97.048 12.8423 96.871 12.8963 96.7206 12.9972L93.1397 15.3848L94.1028 11.215C94.1381 11.0617 94.1333 10.9018 94.089 10.7508C94.0447 10.5998 93.9622 10.4627 93.8496 10.3528L91.0631 7.63597L94.8145 7.33696Z" fill="#F3CD03"/>
+               </svg>
+               <p>Product helps you see how many 
+                 more days you need to work to 
+                 reach your financial goal.</p>
+                 <div class="icon_tex">
+                   <img src="./img/Ellipse 2.svg" alt="">
+                   <div>
+                     <h4>Wahid Ari</h4>
+                     <p class="wahid">Designer</p>
+                   </div>
+                 </div>
+           </div>
+            </div>
+
+
+            <div class="text_bloc1">
+              <div class="maximum">
+               <svg width="107" height="19" viewBox="0 0 107 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <path d="M18.2961 6.58663C18.2384 6.41682 18.1323 6.26761 17.9908 6.15742C17.8493 6.04723 17.6787 5.98089 17.4999 5.96658L12.2708 5.55107L10.008 0.542056C9.9359 0.380725 9.81869 0.243699 9.67047 0.147514C9.52225 0.0513295 9.34936 9.71158e-05 9.17266 1.37932e-07C8.99597 -9.684e-05 8.82302 0.0509458 8.6747 0.146968C8.52637 0.24299 8.40901 0.379887 8.33677 0.541138L6.07395 5.55107L0.844797 5.96658C0.669105 5.9805 0.501144 6.04474 0.361006 6.15161C0.220868 6.25849 0.114488 6.40348 0.0545932 6.56923C-0.00530196 6.73498 -0.0161763 6.91448 0.0232713 7.08625C0.062719 7.25802 0.150818 7.41479 0.277029 7.5378L4.14134 11.3049L2.77466 17.2229C2.73316 17.402 2.74646 17.5895 2.81283 17.761C2.8792 17.9324 2.99559 18.08 3.14687 18.1845C3.29816 18.2891 3.47737 18.3457 3.66124 18.3471C3.84511 18.3485 4.02516 18.2946 4.17803 18.1924L9.17237 14.8628L14.1667 18.1924C14.3229 18.2961 14.5072 18.3495 14.6947 18.3454C14.8822 18.3413 15.0639 18.2799 15.2155 18.1694C15.367 18.0589 15.4811 17.9047 15.5423 17.7274C15.6036 17.5502 15.6091 17.3584 15.5581 17.1779L13.8805 11.3076L18.0411 7.56348C18.3135 7.31766 18.4135 6.93426 18.2961 6.58663Z" fill="#F3CD03"/>
+                 <path d="M40.3103 6.58663C40.2526 6.41682 40.1465 6.26761 40.005 6.15742C39.8635 6.04723 39.6929 5.98089 39.5141 5.96658L34.2849 5.55107L32.0221 0.542056C31.9501 0.380725 31.8328 0.243699 31.6846 0.147514C31.5364 0.0513295 31.3635 9.71158e-05 31.1868 1.37932e-07C31.0101 -9.684e-05 30.8372 0.0509458 30.6889 0.146968C30.5405 0.24299 30.4232 0.379887 30.3509 0.541138L28.0881 5.55107L22.859 5.96658C22.6833 5.9805 22.5153 6.04474 22.3752 6.15161C22.235 6.25849 22.1286 6.40348 22.0688 6.56923C22.0089 6.73498 21.998 6.91448 22.0374 7.08625C22.0769 7.25802 22.165 7.41479 22.2912 7.5378L26.1555 11.3049L24.7888 17.2229C24.7473 17.402 24.7606 17.5895 24.827 17.761C24.8934 17.9324 25.0097 18.08 25.161 18.1845C25.3123 18.2891 25.4915 18.3457 25.6754 18.3471C25.8593 18.3485 26.0393 18.2946 26.1922 18.1924L31.1865 14.8628L36.1809 18.1924C36.3371 18.2961 36.5214 18.3495 36.7089 18.3454C36.8963 18.3413 37.0781 18.2799 37.2296 18.1694C37.3812 18.0589 37.4952 17.9047 37.5565 17.7274C37.6178 17.5502 37.6233 17.3584 37.5723 17.1779L35.8947 11.3076L40.0553 7.56348C40.3277 7.31766 40.4277 6.93426 40.3103 6.58663Z" fill="#F3CD03"/>
+                 <path d="M62.321 6.58663C62.2633 6.41682 62.1572 6.26761 62.0157 6.15742C61.8743 6.04723 61.7036 5.98089 61.5248 5.96658L56.2957 5.55107L54.0329 0.542056C53.9608 0.380725 53.8436 0.243699 53.6954 0.147514C53.5471 0.0513295 53.3743 9.71158e-05 53.1976 1.37932e-07C53.0209 -9.684e-05 52.8479 0.0509458 52.6996 0.146968C52.5513 0.24299 52.4339 0.379887 52.3617 0.541138L50.0989 5.55107L44.8697 5.96658C44.694 5.9805 44.526 6.04474 44.3859 6.15161C44.2458 6.25849 44.1394 6.40348 44.0795 6.56923C44.0196 6.73498 44.0087 6.91448 44.0482 7.08625C44.0876 7.25802 44.1757 7.41479 44.3019 7.5378L48.1662 11.3049L46.7996 17.2229C46.7581 17.402 46.7714 17.5895 46.8377 17.761C46.9041 17.9324 47.0205 18.08 47.1718 18.1845C47.3231 18.2891 47.5023 18.3457 47.6861 18.3471C47.87 18.3485 48.0501 18.2946 48.2029 18.1924L53.1973 14.8628L58.1916 18.1924C58.3478 18.2961 58.5321 18.3495 58.7196 18.3454C58.9071 18.3413 59.0888 18.2799 59.2404 18.1694C59.3919 18.0589 59.506 17.9047 59.5672 17.7274C59.6285 17.5502 59.634 17.3584 59.5831 17.1779L57.9054 11.3076L62.066 7.56348C62.3384 7.31766 62.4384 6.93426 62.321 6.58663Z" fill="#F3CD03"/>
+                 <path d="M84.3371 6.58663C84.2795 6.41682 84.1733 6.26761 84.0319 6.15742C83.8904 6.04723 83.7197 5.98089 83.541 5.96658L78.3118 5.55107L76.049 0.542056C75.9769 0.380725 75.8597 0.243699 75.7115 0.147514C75.5633 0.0513295 75.3904 9.71158e-05 75.2137 1.37932e-07C75.037 -9.684e-05 74.864 0.0509458 74.7157 0.146968C74.5674 0.24299 74.45 0.379887 74.3778 0.541138L72.115 5.55107L66.8858 5.96658C66.7101 5.9805 66.5422 6.04474 66.402 6.15161C66.2619 6.25849 66.1555 6.40348 66.0956 6.56923C66.0357 6.73498 66.0248 6.91448 66.0643 7.08625C66.1037 7.25802 66.1918 7.41479 66.318 7.5378L70.1824 11.3049L68.8157 17.2229C68.7742 17.402 68.7875 17.5895 68.8538 17.761C68.9202 17.9324 69.0366 18.08 69.1879 18.1845C69.3392 18.2891 69.5184 18.3457 69.7023 18.3471C69.8861 18.3485 70.0662 18.2946 70.219 18.1924L75.2134 14.8628L80.2077 18.1924C80.364 18.2961 80.5482 18.3495 80.7357 18.3454C80.9232 18.3413 81.1049 18.2799 81.2565 18.1694C81.408 18.0589 81.5221 17.9047 81.5834 17.7274C81.6446 17.5502 81.6501 17.3584 81.5992 17.1779L79.9215 11.3076L84.0821 7.56348C84.3545 7.31766 84.4545 6.93426 84.3371 6.58663Z" fill="#F3CD03"/>
+                 <path d="M92.1977 11.3049L90.831 17.2229C90.7887 17.4021 90.8014 17.5899 90.8674 17.7618C90.9335 17.9336 91.0499 18.0816 91.2013 18.1863C91.3528 18.291 91.5323 18.3476 91.7164 18.3487C91.9006 18.3498 92.0808 18.2953 92.2334 18.1924L97.2278 14.8629L102.222 18.1924C102.378 18.2962 102.563 18.3496 102.75 18.3454C102.938 18.3413 103.119 18.2799 103.271 18.1694C103.422 18.0589 103.536 17.9047 103.598 17.7274C103.659 17.5502 103.665 17.3584 103.614 17.178L101.936 11.3077L106.097 7.56351C106.23 7.44353 106.325 7.28712 106.37 7.11362C106.416 6.94012 106.409 6.75715 106.351 6.58734C106.294 6.41752 106.188 6.26831 106.046 6.15815C105.905 6.04799 105.734 5.98172 105.555 5.96752L100.326 5.5511L98.0634 0.542085C97.9912 0.380794 97.8739 0.243833 97.7257 0.147729C97.5774 0.0516259 97.4045 0.000488281 97.2278 0.000488281C97.0511 0.000488281 96.8782 0.0516259 96.7299 0.147729C96.5816 0.243833 96.4643 0.380794 96.3922 0.542085L94.1294 5.5511L88.9002 5.96661C88.7245 5.98053 88.5566 6.04477 88.4164 6.15164C88.2763 6.25852 88.1699 6.40351 88.11 6.56926C88.0501 6.73501 88.0392 6.91451 88.0787 7.08628C88.1181 7.25805 88.2062 7.41482 88.3324 7.53783L92.1977 11.3049ZM94.8145 7.33696C94.9783 7.32406 95.1355 7.26735 95.2698 7.17278C95.404 7.07821 95.5104 6.94927 95.5777 6.79946L97.2278 3.14795L98.8779 6.79946C98.9452 6.94927 99.0515 7.07821 99.1858 7.17278C99.3201 7.26735 99.4773 7.32406 99.641 7.33696L103.284 7.62588L100.284 10.3262C100.024 10.561 99.9199 10.9224 100.015 11.26L101.165 15.282L97.7378 12.9972C97.5874 12.8963 97.4103 12.8423 97.2292 12.8423C97.048 12.8423 96.871 12.8963 96.7206 12.9972L93.1397 15.3848L94.1028 11.215C94.1381 11.0617 94.1333 10.9018 94.089 10.7508C94.0447 10.5998 93.9622 10.4627 93.8496 10.3528L91.0631 7.63597L94.8145 7.33696Z" fill="#F3CD03"/>
+                 </svg>
+                 <p>Product helps you see how many 
+                   more days you need to work to 
+                   reach your financial goal.</p>
+                   <div class="icon_tex">
+                     <img src="./img/Ellipse 2.svg" alt="">
+                     <div>
+                       <h4>Wahid Ari</h4>
+                       <p class="wahid">Designer</p>
+                     </div>
+                   </div>
+             </div>
+              </div>
+        </div>
+
+
+        <div class="foter_top">
+          <div class="text_left">
+            <h4>Join 100 Compannies who boost their business with Product</h4>
+            <button>Get This</button>
+          </div>
+          <div class="card_right">
+            <img src="./img/Frame 18.png" alt="">
+          </div>
+        </div>
+
+      </div>
+     </section>
+    </main>
+
+    <footer class="foter">
+      <div class="container">
+       <nav class="nav_foter">
+       <div class="foter_econ_logo">
+        <div class="head__logo">
+          <a href="#" class="nav__logo"
+            ><img src="./img/Group 190.svg" alt=""
+          /></a>
+          <a href="#" class="nav__logo"
+            ><img src="./img/Product.svg" alt=""
+          /></a>
+        </div>
+        <div class="foter_econ">
+          <a href="#"><svg  class="econ" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 2.01611H7C4.23858 2.01611 2 4.25469 2 7.01611V17.0161C2 19.7775 4.23858 22.0161 7 22.0161H17C19.7614 22.0161 22 19.7775 22 17.0161V7.01611C22 4.25469 19.7614 2.01611 17 2.01611Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M16 11.3862C16.1234 12.2184 15.9813 13.0684 15.5938 13.8152C15.2063 14.562 14.5932 15.1676 13.8416 15.5458C13.0901 15.9241 12.2385 16.0558 11.4078 15.9221C10.5771 15.7884 9.80977 15.3963 9.21485 14.8013C8.61993 14.2064 8.22774 13.439 8.09408 12.6084C7.96042 11.7777 8.09208 10.9261 8.47034 10.1745C8.8486 9.42302 9.4542 8.80991 10.201 8.42241C10.9478 8.03491 11.7978 7.89276 12.63 8.01617C13.4789 8.14206 14.2649 8.53763 14.8717 9.14448C15.4785 9.75132 15.8741 10.5372 16 11.3862Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 6.51611H17.51" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></a>
+
+            
+
+            <a href="#"><svg  class="econ"   width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+</a>
+              
+
+
+              <a href="#"><svg  class="econ"   width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 1.01006C22.0424 1.68553 20.9821 2.20217 19.86 2.54006C19.2577 1.84757 18.4573 1.35675 17.567 1.13398C16.6767 0.911216 15.7395 0.967251 14.8821 1.29451C14.0247 1.62177 13.2884 2.20446 12.773 2.96377C12.2575 3.72309 11.9877 4.62239 12 5.54006V6.54006C10.2426 6.58562 8.50127 6.19587 6.93101 5.4055C5.36074 4.61513 4.01032 3.44869 3 2.01006C3 2.01006 -1 11.0101 8 15.0101C5.94053 16.408 3.48716 17.109 1 17.0101C10 22.0101 21 17.0101 21 5.51006C20.9991 5.23151 20.9723 4.95365 20.92 4.68006C21.9406 3.67355 22.6608 2.40277 23 1.01006V1.01006Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                </a>
+        </div>
+       </div>
+       <div>
+        <p class="resour">Resource</p>
+        <li><a class="foter_link" href="#">About Us</a></li>
+        <li><a class="foter_link" href="#">Blog</a></li>
+        <li><a class="foter_link" href="#">Contact</a></li>
+        <li><a class="foter_link" href="#">FAQ</a></li>
+       </div>
+       <div>
+        <p class="resour">Legal Stuff</p>
+        <li><a  class="foter_link"  href="#">Disclaimer</a></li>
+        <li><a  class="foter_link" href="#">Financing</a></li>
+        <li><a  class="foter_link" href="#">Privacy Policy</a></li>
+        <li><a  class="foter_link" href="#">Terms of Service</a></li>
+       </div>
+       <div>
+        <p class="resour">knowing you're always on the best energy deal. 
+        </p>
+        <input style="height: 48px; width: 325px;" type="text" id="fname" name="fname"> <br>
+        <button class="foter_buton">Sign up Now</button>
+       </div>
+       </nav>
+       <div></div>
+      </div>
+    </footer>
+<a id="backtop" href="#">
+      <img src="./img/BCTOP/bx-chevron-up.svg" alt="" />
+    </a>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+    
+
+
+    <script>
+      // / SMART BACKTOP //////
+window.addEventListener('scroll', function () {
+  toggleBacktop();
+});
+
+let backtop = document.getElementById('backtop');
+
+function toggleBacktop() {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 200
+  ) {
+    backtop.style.bottom = '20px';
+  } else {
+    backtop.style.bottom = '-50px';
+  }
+}
+
+// RESPONSIVE NAVBAR //////
+function toggleNavbar() {
+  document.getElementById('navbar-responsive').classList.toggle('open');
+}
+
+document.getElementById('menu-btn').addEventListener('click', toggleNavbar);
+    </script>
+  </body>
+</html>`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
