@@ -150,8 +150,21 @@
   flex-direction: column;
   gap: 20px;
 }
+
+// .main_card1 {
+//   background-image: url(../img/Bg.png);
+//   background-repeat: no-repeat;
+//   height: 525px;
+// }
+.img_bgr {
+  max-width: 1110px;
+  width: 100%;
+}
 @media (max-width: 914px) {
   .nav__linkbtn {
+    display: none;
+  }
+  .img_bgr {
     display: none;
   }
   .nav__list {
